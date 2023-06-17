@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!-- /**
+ * Seofeb 
+ * @category    Seofeb 
+ * @copyright   Copyright (c) 2014 Seofeb (http://www.seofeb.net/) 
+ * @license     http://www.seofeb.net/license-agreement.html
+ * @Author: DOng NGuyen<nguyen@dvn.com>
+ * @@Create Date: 2016-02-23 18:59:34
+ * @@Modify Date: 2020-02-02 15:54:48
+ * @@Function:
+ */ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <general>
+    <quantity_ranges>
+        <ranges>
+            <item1>
+                <from_qty>1</from_qty>
+                <to_qty>5</to_qty>
+                <price>10.00</price>
+                <tax>1</tax>
+            </item1>
+            <item2>
+                <from_qty>6</from_qty>
+                <to_qty>10</to_qty>
+                <price>20.00</price>
+                <tax>1</tax>
+            </item2>
+            <item3>
+                <from_qty>11</from_qty>
+                <to_qty>15</to_qty>
+                <price>30.00</price>
+                <tax>0</tax>
+            </item3>
+        </ranges>
+    </quantity_ranges>
+</general>
+
+    </default>
+</config>
