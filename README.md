@@ -6,7 +6,7 @@ Magento Brains Payment Module
 
 ## Composer install
 
-- `composer config repositories.Product vcs https://github.com/rajudiya/brains`
+- `composer config repositories.brains vcs https://github.com/rajudiya/brains`
 
 - `composer require magento/brains:dev-main`
 
@@ -17,7 +17,7 @@ Magento Brains Payment Module
 ## Known issues
 
 - **Issues will be here**
-  Compartible with magento 2.4.5
+  Compartible with magento 2.4.6
 
 ## Developer informations
 - Developer Name - Rohan Ajudiya
